@@ -11,3 +11,5 @@ The index page would have some basic info about what I'm all about, combining po
 ### Design Choices
 
 I would want to make my website look like a normal museum website, until you realize it is silly, where the artworks are not quite normal (because they are fused fr). It could be similar to the museum that we went to website, since that is where to peices come from.
+
+I have some photos but I'm on a time crunch have a good day
