@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <form action="https://wp.zybooks.com/form-viewer.php" method="post" enctype="multipart/form-data">
+
+      <p>
+        <fieldset>
+          <legend>Status:</legend>
+          <div>
+            <input type="radio" name="status" id="status" />
+           <label for="status">Draft</label>
+
+           <input type="radio" name="status" id="status" checked />
+           <label for="status">Final</label>
+          </div>
+          
+        </fieldset>
+      </p>
+
+      <p>
+        <label for="date">Date:</label>
+        <div>
+          <select name="gameDate" id="gameDate">
+            <option value="March 20">March 20</option>
+            <option value="March 24">March 24</option>
+            <option value="April 2">April 2</option>
+            <option value="April 6">April 6</option>
+            <option value="April 13">April 13</option>
+          </select>
+        </div>
+      </p>
+
+      <p>
+        <fieldset>
+          <legend>Players:</legend>
+          <p>
+            <input type="checkbox" name="player" id="player" value="Aarav Agarwal">
+            <label for="player">Aarav Agarwal</label>
+          </p>
+          <p>
+            <input type="checkbox" name="player" id="player" value="Ava Johnson">
+            <label for="player">Ava Johnson</label>
+          </p>
+          <p>
+            <input type="checkbox" name="player" id="player" value="Julio Ortiz">
+            <label for="player">Julio Ortiz</label>
+          </p>
+          <p>
+            <input type="checkbox" name="player" id="player" value="Liam Rubio">
+            <label for="player">Liam Rubio</label>
+          </p>
+          <p>
+            <input type="checkbox" name="player" id="player" value="Emma Witherspoon">
+            <label for="player">Emma Witherspoon</label>
+          </p>
+        </fieldset>
+      </p>
+
+      <div>
+        <input type="Submit" value="Submit">
+    </div>
+        
+    </form>
+    
+  </body>
+</html>
